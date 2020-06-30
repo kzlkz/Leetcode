@@ -1,0 +1,25 @@
+youtube-dl -f best -ciw -o "%(title)s.%(ext)s" -v <url-of-channel>
+
+
+youtube-dl -f best -ciw -o "%(title)s.%(ext)s" -v https://www.youtube.com/channel/UC9vLsnF6QPYuH51njmIooCQ/videos
+
+youtube-dl -f best -ciw -o "%(title)s.%(ext)s" -v https://www.youtube.com/playlist?list=PLLucmoeZjtMTarjnBcV5qOuAI4lE5ZinV
+
+
+15-213:
+youtube-dl -f best -ciw -o "%(title)s.%(ext)s" -v https://www.youtube.com/playlist?list=PLQ5cMeVTtiJkUilq92Cw9D6RhAJhPJ_JX
+
+cs231n:
+youtube-dl -f best -ciw -o "%(title)s.%(ext)s" -v https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv
+
+cs224n:
+youtube-dl -f best -ciw -o "%(title)s.%(ext)s" -v https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z
+
+cs229:
+youtube-dl -f best -ciw -o "%(title)s.%(ext)s" -v https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU
+
+cs230:
+youtube-dl -f best -ciw -o "%(title)s.%(ext)s" -v https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb
+
+cs162 OS:
+youtube-dl -f best -ciw -o "%(title)s.%(ext)s" -v https://www.youtube.com/playlist?list=PLIMsSuI81pxq7c91oQMpmXgmGICbuDA_c

@@ -20,6 +20,8 @@ The ord() function returns an integer representing the Unicode character.
 
 Return an integer object constructed from a number or string x, or return 0 if no arguments are given. If x is a number, return x.__int__(). For floating point numbers, this truncates towards zero.
 
+## dict.keys() and dict.values()
+
 ## dictionary.get(keyname, value)
 value:
 
@@ -52,6 +54,10 @@ The strip() method removes any leading (spaces at the beginning) and trailing (s
 ## results += [x | (1 << i) for x in reversed(results)]
 
 ## for layer in reversed(range(0, n-1)) == for layer in range(n-2, -1, -1)
+
+## collections.OrderedDict.
+* move_to_end(key, last=True)
+* popitem(last=True)
 
 
 ## Morris Inorder Tree Traversal
