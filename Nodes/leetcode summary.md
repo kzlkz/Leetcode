@@ -28,6 +28,32 @@ value:
 Optional. A value to return if the specified key does not exist.
 Default value None
 
+
+## heapq (Min-heap)
+
+    heapq.heappush(heap, item)
+
+    heapq.heappop(heap)
+
+    heapq.heappushpop(heap, item)
+
+    heapq.heapify(x)
+
+    heapq.heapreplace(heap, item)
+
+According to the heapq documentation, the way to customize the heap order is to have each element on the heap to be a tuple, with the first tuple element being one that accepts normal Python comparisons.
+
+## collections.Counter
+    class Solution(object):
+        def topKFrequent(self, words, k):
+            count = collections.Counter(words)
+            candidates = count.keys()
+            candidates = sorted(candidates, key = lambda w: (-count[w], w))
+            return candidates[:k]
+## for/else
+
+## list.clear()
+
 ## xrange
 
 in Python 2: range generates a list while xrange is a sequence object that evaluates lazily.

@@ -165,6 +165,30 @@
 
 
 
+## 6.30
+
+269 Alien Dictionary
+
+Graph algorithm
+
+973 K Closest Points to Origin
+
+Quickselect
+
+
+297 Serialize and Deserialize Binary Tree
+
+139 Word Break
+
+* Method1: Recursion + Memoization
+
+* Method2: BFS
+
+
+295 Find Median from Data Stream
+
+* Method1: Two Heaps
+
 
 
 
