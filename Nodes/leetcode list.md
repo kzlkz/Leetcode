@@ -190,6 +190,35 @@ Quickselect
 * Method1: Two Heaps
 
 
+## 7.1
+
+138 Copy List with Random Pointer
+
+Clone LinkedList. Use Original Nodes as Key pointing to new nodes.
+
+127 Word Ladder
+
+BFS. Use intermediate word to match
+
+763 Partition Labels
+
+Greedy.
+
+227 Basic Calculator II
+
+Bind sign with num
+
+460 LFU Cache
+
+Two dict + Doubly linked list
+
+https://leetcode.com/problems/lfu-cache/discuss/207673/Python-concise-solution-**detailed**-explanation:-Two-dict-+-Doubly-linked-list
+
+
+
+
+
+
 
 
 
