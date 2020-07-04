@@ -214,6 +214,41 @@ Two dict + Doubly linked list
 
 https://leetcode.com/problems/lfu-cache/discuss/207673/Python-concise-solution-**detailed**-explanation:-Two-dict-+-Doubly-linked-list
 
+173 Binary Search Tree Iterator
+
+* Approach 1: Flattening the BST
+
+* Approach 2: Controlled Recursion
+
+       self._leftmost_inorder(root)
+
+
+7.2
+
+560 Subarray Sum Equals K
+
+Approach 2: Using Cumulative Sum
+
+Approach 3: Without Space
+
+Approach 4: Using Hashmap
+
+1249 Minimum Remove to Make Valid Parentheses
+
+31 Next Permutation
+
+Edge cases:
+* Duplicate numbers
+* Largest number
+
+num[:] = num[::-1] and num = num[::-1]
+
+num[i+1:] = num[i+1:][::-1] and num = num[:i+1] + num[i+1:][::-1]
+
+
+
+
+
 
 
 
