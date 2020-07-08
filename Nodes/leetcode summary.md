@@ -60,6 +60,10 @@ in Python 2: range generates a list while xrange is a sequence object that evalu
 
 In Python 3: same
 
+## num[:] = num[::-1] and num = num[::-1]
+
+num[i+1:] = num[i+1:][::-1] and num = num[:i+1] + num[i+1:][::-1]
+
 
 ## range(start, end, step)
 

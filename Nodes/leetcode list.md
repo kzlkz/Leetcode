@@ -241,12 +241,28 @@ Edge cases:
 * Duplicate numbers
 * Largest number
 
-num[:] = num[::-1] and num = num[::-1]
 
-num[i+1:] = num[i+1:][::-1] and num = num[:i+1] + num[i+1:][::-1]
+7.6
 
+236 Lowest Common Ancestor of a Binary Tree
 
+Find the lowest node with both p and q in subtrees: mid + left + right >= 2
 
+987 Vertical Order Traversal of a Binary Tree
+
+Method 1: BFS, then sort with (col, row, value)
+
+Method 2: BFS with partitioning sorting: Use ordered dict or use dict then sort each dict
+
+211 Add and Search Word - Data structure design
+
+Method 1: Hashmap
+
+Method 2: Trie, use '$' indicate end of word. Once meet '.', check if rest of the word in trie
+
+621 Task Scheduler
+
+## I dont understand
 
 
 
