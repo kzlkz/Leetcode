@@ -265,6 +265,20 @@ Method 2: Trie, use '$' indicate end of word. Once meet '.', check if rest of th
 ## I dont understand
 
 
+7.13
+
+4 Median of Two Sorted Arrays
+
+85 Maximal Rectangle
+
+41 First Missing Positive
+
+128 Longest Consecutive Sequence
+
+Approach 3: HashSet and Intelligent Sequence Building
+
+
+
 
 
 
