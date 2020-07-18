@@ -278,6 +278,31 @@ Method 2: Trie, use '$' indicate end of word. Once meet '.', check if rest of th
 Approach 3: HashSet and Intelligent Sequence Building
 
 
+7.18
+
+229 Majority Element II
+
+Boyer-Moore Algorithm
+
+84 Largest Rectangle in Histogram
+
+Use stack to keep ascending heights
+
+123 Best Time to Buy and Sell Stock III
+
+
+Method 1: 
+
+       Left_profit[i] + right_profit[i+1]
+
+Method 2: DP
+
+       t1_cost, t2_cost = float('inf'), float('inf')
+       t1_profit, t2_profit = 0, 0
+
+
+
+
 
 
 
