@@ -300,6 +300,29 @@ Method 2: DP
        t1_cost, t2_cost = float('inf'), float('inf')
        t1_profit, t2_profit = 0, 0
 
+7.20
+
+10 Regular Expression Matching
+
+1130 Minimum Cost Tree From Leaf Values
+
+72 Edit Distance
+
+338 Counting Bits
+
+
+7.22
+
+959 Regions Cut By Slashes
+
+1043 Partition Array for Maximum Sum
+
+Method 1: DP
+
+
+
+
+
 
 
 
